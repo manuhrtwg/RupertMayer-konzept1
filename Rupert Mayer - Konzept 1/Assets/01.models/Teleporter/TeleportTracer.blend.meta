@@ -1,39 +1,9 @@
 fileFormatVersion: 2
-guid: ecb78bc4cbe2d794dbfaaaae824b3f1c
+guid: 65f30dbfad9ac0b41a1762d3f76b354d
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Jahreszahlen
-    second: {fileID: 2100000, guid: 27ceb7bf810d1404ba21a4fcb0ed3c86, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: c74faf63f9b794745bfa86a69b763605, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: floor_platform
-    second: {fileID: 2100000, guid: ca6d443fb9104d04b934d7b7e9f4e033, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: plattforms
-    second: {fileID: 2100000, guid: f6b443dcfe5e5f744a84923916db2214, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: timeline1
-    second: {fileID: 2100000, guid: 44388323f46678d4a8f0740bfa39e234, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: timeline5
-    second: {fileID: 2100000, guid: 52bfdca8291adff48a854d1c19ec1d29, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -66,16 +36,16 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
