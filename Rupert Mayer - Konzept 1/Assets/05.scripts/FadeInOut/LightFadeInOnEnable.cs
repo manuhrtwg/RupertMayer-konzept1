@@ -8,12 +8,12 @@ public class LightFadeInOnEnable : MonoBehaviour
 
     private Light myLight;
     public float fadeSpeed;
-    public float lightIntensity;
+    private float lightIntensity;
 
     void Start()
     {
      myLight = GetComponent<Light>();  
-
+    lightIntensity = myLight.intensity;
      myLight.intensity = 0; 
     }
 
