@@ -16,7 +16,10 @@ public class LightFadeInOnEnable : MonoBehaviour
     lightIntensity = myLight.intensity;
      myLight.intensity = 0; 
     }
+    void OnEnable() {
 
+      myLight.intensity = 0;
+    }
     // Update is called once per frame
     void Update()
     {
