@@ -4567,6 +4567,126 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &122423642
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1086248468}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0448246
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.17027473
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2316494
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000020730957
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.31667033
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000000069210584
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9485357
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -36.923
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.7494347
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.7494347
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.7494347
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 955f45b741049054fbb835427f0683f2, type: 2}
+    - target: {fileID: 919132149155446097, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+        type: 3}
+      propertyPath: m_Name
+      value: MayerFeldgeistlicher
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb01aaf798f653849b0b9c2d9fc1d8d4, type: 3}
+--- !u!1 &122423643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+    type: 3}
+  m_PrefabInstance: {fileID: 122423642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &122423644
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122423643}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0fa848a4cc49e364daee29ecc13b9e96, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &122423645 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb01aaf798f653849b0b9c2d9fc1d8d4,
+    type: 3}
+  m_PrefabInstance: {fileID: 122423642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &126295387
 GameObject:
   m_ObjectHideFlags: 0
@@ -37146,6 +37266,7 @@ Transform:
   - {fileID: 1051918657}
   - {fileID: 1175022214}
   - {fileID: 379892277}
+  - {fileID: 122423645}
   m_Father: {fileID: 1911392652}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -42356,6 +42477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1217731022}
+  - component: {fileID: 1217731023}
   m_Layer: 0
   m_Name: MayerScene1939
   m_TagString: Untagged
@@ -42387,6 +42509,22 @@ Transform:
   m_Father: {fileID: 1911392652}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1217731023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217731021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015c01c9730e1024e8b0b46bf8892883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetTime: 55
+  duration: 32
+  NewFogDensity: 0.095
+  NewFogCol: {r: 0, g: 0.019607844, b: 0.078431375, a: 1}
 --- !u!1 &1220687417
 GameObject:
   m_ObjectHideFlags: 0
@@ -43539,7 +43677,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1251306821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48429,7 +48567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 6ed9b27abb42e5741adc750d6ac74e88, type: 2}
+  m_Material: {fileID: 2100000, guid: a24238fb04826464aa1b721ed3a62e9b, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
@@ -49693,7 +49831,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 110d49dd9e2b5c240ba8a7dbda2f6c89,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.869
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 110d49dd9e2b5c240ba8a7dbda2f6c89,
         type: 3}
@@ -49703,7 +49841,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 110d49dd9e2b5c240ba8a7dbda2f6c89,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.647
+      value: 0.625
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 110d49dd9e2b5c240ba8a7dbda2f6c89,
         type: 3}
@@ -67540,7 +67678,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Rupert Mayer wird zum Vorsitzenden (Pr\xE4ses) der marianischen M\xE4nnerkongregation
-    ernannt, einer Verbindung von Geistlichen, Musikern und Lehrern. "
+    ernannt, einer Verbindung von Akademikern und Beamten. "
 --- !u!222 &1961662531
 CanvasRenderer:
   m_ObjectHideFlags: 0
